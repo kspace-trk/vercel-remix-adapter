@@ -1,6 +1,6 @@
 {
   "include": ["**/*.ts", "**/*.d.ts"],
-  "exclude": ["dist", "__tests__", "node_modules", "vite.ts"],
+  "exclude": ["dist", "__tests__", "node_modules"],
   "compilerOptions": {
     "lib": ["DOM", "DOM.Iterable", "ES2022"],
     "target": "ES2022",

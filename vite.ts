@@ -8,10 +8,10 @@ import {
   rmSync,
   readdirSync,
   readFileSync,
-} from "fs";
+} from "node:fs";
 import { getConfig, type BaseFunctionConfig } from "@vercel/static-config";
-import type { Preset, VitePluginConfig } from "@remix-run/dev/vite/plugin";
-import type { RouteManifestEntry } from "@remix-run/dev/config/routes";
+import type { Preset, VitePluginConfig } from "@remix-run/dev/dist/vite/plugin";
+import type { RouteManifestEntry } from "@remix-run/dev/dist/config/routes";
 
 interface EntryServerShas {
   [sha: string]: {

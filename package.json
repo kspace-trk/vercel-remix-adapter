@@ -1,6 +1,6 @@
 {
   "name": "@kspace-trk/vercel-remix-adapter",
-  "version": "2.16.6",
+  "version": "0.0.1",
   "description": "Isomorphic runtime + adapter for Remix on Vercel",
   "repository": {
     "type": "git",
@@ -19,13 +19,13 @@
       "default": "./dist/index.js"
     },
     "./server": {
-      "types": "./server.d.ts",
+      "types": "./dist/server.d.ts",
       "browser": "./dist/edge/server.js",
-      "default": "./server.js"
+      "default": "./dist/server.js"
     },
     "./vite": {
-      "types": "./vite.d.ts",
-      "default": "./vite.js"
+      "types": "./dist/vite.d.ts",
+      "default": "./dist/vite.js"
     },
     "./package.json": "./package.json"
   },
