@@ -1,0 +1,9 @@
+/globals.js
+/globals.d.ts
+/server.js
+/server.d.ts
+/vite.js
+/vite.d.ts
+node_modules
+dist
+.env

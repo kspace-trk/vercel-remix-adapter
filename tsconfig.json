@@ -1,0 +1,23 @@
+{
+  "include": ["**/*.ts", "**/*.d.ts"],
+  "exclude": ["dist", "__tests__", "node_modules", "vite.ts"],
+  "compilerOptions": {
+    "lib": ["DOM", "DOM.Iterable", "ES2022"],
+    "target": "ES2022",
+    "module": "ES2022",
+
+    "moduleResolution": "Bundler",
+    "allowSyntheticDefaultImports": true,
+    "strict": false,
+    "noImplicitAny": false,
+    "declaration": true,
+    "emitDeclarationOnly": false,
+    "noEmitOnError": false,
+    "rootDir": ".",
+    "outDir": "./dist",
+    "jsx": "react",
+
+    // Avoid naming conflicts between lib.dom.d.ts and globals.ts
+    "skipLibCheck": true
+  }
+}
