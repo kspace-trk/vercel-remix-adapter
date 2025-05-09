@@ -1,10 +1,10 @@
 {
-  "name": "@kspace-trk/remix-vercel-adapter",
+  "name": "@kspace-trk/vercel-remix-adapter",
   "version": "2.16.6",
   "description": "Isomorphic runtime + adapter for Remix on Vercel",
   "repository": {
     "type": "git",
-    "url": "https://github.com/kspace-trk/remix",
+    "url": "git+https://github.com/kspace-trk/remix.git",
     "directory": "packages/vercel-remix"
   },
   "author": "kspace-trk",
